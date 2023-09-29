@@ -22,25 +22,22 @@ function Home() {
             <div className="navbar">
             <nav>
                 <div className="navfundo">
-                    <a href="#">Objetivo</a>
+                <Link to={"/objetivo"}>Objetivo</Link>
                 </div>
                 <div className="navfundo">
-                    <a href="#">Itens</a>
+                <Link to={"/itens"}>Itens</Link>
                 </div>
                 <div className="navfundo">
-                    <a href="#">Equipamentos</a>
+                <Link to={"/equipamentos"}>Equipamentos</Link>
                 </div>
                 <div className="navfundo">
-                    <a href="#">Funcionamento</a>
+                <Link to={"/funcionamento"}>Funcionamento</Link>
                 </div>
                 <div className="navfundo">
-                    <a href="#">Créditos</a>
+                <Link to={"/creditos"}>Créditos</Link>
                 </div>
             </nav>
         </div>
-        <div class="menu-icon">
-    <span class="icon">&#9776;</span>
-  </div>
             </header>
 
             <main>
