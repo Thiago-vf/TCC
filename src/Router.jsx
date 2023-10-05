@@ -4,8 +4,8 @@ import Home from "./Paginas/Home"
 import Funcionamento from "./Paginas/Funcionamento"
 import Objetivo from "./Paginas/Objetivo"
 import Equipamentos from "./Paginas/Equipamentos"
-import Itens from "./Paginas/Itens"
 import Creditos from "./Paginas/Creditos"
+import Publico from "./Paginas/Publico"
 
  function Router() {
   return (
@@ -16,7 +16,7 @@ import Creditos from "./Paginas/Creditos"
     <Route path="/objetivo" element={<Objetivo />} />
     <Route path="/equipamentos" element={<Equipamentos />} />
     <Route path="/creditos" element={<Creditos />} />
-    <Route path="/itens" element={<Itens />} />
+    <Route path="/Publico" element={<Publico />} />
     </Routes>
   )
 }

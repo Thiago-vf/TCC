@@ -28,14 +28,15 @@ function Home() {
             <header>
 
                 <div className="logo">
-                    <img src={logotipo} alt="logo do site" />
-
+                
+                        <img src={logotipo} alt="logo do site" />
+                   
                     <div class="mobile-navbar">
                         <button class="menu-m" onclick="handleAbrirFecharMenu()"><List size={32} /></button>
                         <nav class="mobile-menu" id="mobileMenu">
                             <ul>
                                 <li><Link to={"/objetivo"}>Objetivo</Link></li>
-                                <li><Link to={"/itens"}>Itens</Link></li>
+                                <li><Link to={"/Publico"}>Publico</Link></li>
                                 <li><Link to={"/equipamentos"}>Equipamentos</Link></li>
                                 <li><Link to={"/funcionamento"}>Funcionamento</Link></li>
                                 <li><Link to={"/creditos"}>Créditos</Link></li>
@@ -52,7 +53,7 @@ function Home() {
                             <Link to={"/objetivo"}>Objetivo</Link>
                         </div>
                         <div className="navfundo">
-                            <Link to={"/itens"}>Itens</Link>
+                        <Link to={"/Publico"}>Publico</Link>
                         </div>
                         <div className="navfundo">
                             <Link to={"/equipamentos"}>Equipamentos</Link>

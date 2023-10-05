@@ -97,7 +97,7 @@
 
     .titulo {
 
-        margin: 1.8rem 1rem 710rem 4.41rem;
+        margin: 1rem 1rem 0.1rem 4.41rem;
 
         color: #A2D4F2;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -117,7 +117,8 @@
         height: 22.4375rem;
         flex-shrink: 0;
 
-        margin: 3.25rem 26.13rem 3rem 26.12rem;
+
+        margin: 0.1rem 26.13rem 15rem 15.12rem;
 
 
     }
@@ -131,58 +132,16 @@
 
         color: #A2D4F2;
         font-family: Poppins;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         font-style: normal;
         font-weight: 400;
         line-height: 180%;
         /* 1.5275rem */
 
-        margin: 2.38rem 5.38rem 1.38rem 6.38rem;
+        margin: 2.38rem 5.38rem 20rem 6.38rem;
     }
 
-    .fundo-botao {
-        position: relative;
-        text-align: center;
-        margin-bottom: 5rem;
-
-
-    }
-
-    .botao {
-
-        width: 10.76338rem;
-        height: 1.26631rem;
-        flex-shrink: 0;
-        position: absolute;
-        top: 50%;
-        /* Move o botão para o centro vertical */
-        left: 50%;
-        /* Move o botão para o centro horizontal */
-        transform: translate(-50%, -70%);
-
-        color: #FFF;
-        text-align: center;
-        font-family: Poppins;
-        font-size: 1rem;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-        border: none;
-        background: transparent;
-
-        a {
-
-            color: #FFF;
-            font-family: Poppins;
-            font-size: 1rem;
-            border: none;
-        }
-
-        a:hover {
-            border: none;
-            box-shadow: 0 10px 19px rgba(0, 0, 0, 0.2);
-            transition: box-shadow 0.3s ease;
-        }
+   
     }
 
     .mobile-navbar {
@@ -192,7 +151,7 @@
     }
 
 
-}
+
 
 
 
@@ -291,7 +250,7 @@
         height: 1.59113rem;
         flex-shrink: 0;
 
-        margin-top: 6.69rem;
+        margin-top: 2.69rem;
         margin-left: 0.94rem;
         margin-right: 0.16rem;
         margin-bottom: 0.6rem;
@@ -320,7 +279,7 @@
         font-style: normal;
         font-weight: 900;
         line-height: 170%;
-        /* 2.725rem */
+        
     }
 
     .titulos {
@@ -339,7 +298,7 @@
         justify-content: center;
 
         height: 50vh;
-        margin: 6rem 1rem 1rem 1rem;
+        margin: 3rem 1rem 1rem 1rem;
 
 
         &img {
@@ -354,63 +313,22 @@
         height: 9.125rem;
         flex-shrink: 0;
         padding: 1rem;
-        margin: 1.5rem 3.06rem 7.13rem 0.2rem;
+        text-align: left;
+        margin: 1.5rem 3.06rem 20.13rem 0.2rem;
 
         color: #A2D4F2;
-        text-align: center;
         font-family: Poppins;
-        font-size: 1.3rem;
+        font-size: 0.8rem;
         font-style: normal;
-        font-weight: 600;
+        font-weight: 200;
         line-height: 180%;
-        /* 1.2375rem */
+        
     }
 
-    .fundo-botao {
-        margin-top: 1rem;
-        margin-bottom: 5rem;
-        position: relative;
-        text-align: center;
-    }
 
-    .botao {
 
-        width: 10.76338rem;
-        height: 1.26631rem;
-        flex-shrink: 0;
-        position: absolute;
-        top: 50%;
-        /* Move o botão para o centro vertical */
-        left: 50%;
-        /* Move o botão para o centro horizontal */
-        transform: translate(-50%, -70%);
-
-        color: #FFF;
-        text-align: center;
-        font-family: Poppins;
-        font-size: 1rem;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-        border: none;
-        background: transparent;
-
-        a {
-            background: transparent;
-            text-decoration: none;
-            color: #FFF;
-            font-family: Poppins;
-            font-size: 1rem;
-            border: none;
-        }
-
-        a:hover {
-            border: none;
-            box-shadow: 0 10px 19px rgba(0, 0, 0, 0.2);
-            transition: box-shadow 0.3s ease;
-        }
-
-    }
+   
+    
 
 
 
