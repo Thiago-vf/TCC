@@ -13,136 +13,7 @@
 
     }
 
-
-
-    .logo {
-        width: 0.8125rem;
-        height: 0.8125rem;
-        flex-shrink: 0;
-
-
-
-    }
-
-    .navbar {
-        display: flex;
-        align-items: center;
-        margin-left: 40%;
-
-
-
-    }
-
-
-
-
-    nav {
-        display: inline-flex;
-        align-items: center;
-        gap: 2.49281rem;
-        box-sizing: border-box;
-
-        margin-top: 1rem;
-    }
-
-    a {
-
-        margin: 0.2rem 0.2rem;
-        width: 5.5rem;
-        height: 1.2rem;
-        flex-direction: column;
-        justify-content: center;
-        flex-shrink: 0;
-
-
-        color: var(--vermelho, #F24B4B);
-        text-align: center;
-        font-family: Roboto;
-        font-size: 0.9rem;
-        font-style: 0.743rem;
-        font-weight: 500;
-        line-height: 0.875rem;
-        text-decoration: none;
-        background: transparent;
-
-        border-radius: 2.17456rem;
-        padding: 0.7rem 1.06075rem;
-        border: 0.849px solid var(--red-pink, #FF5B79);
-
-
-    }
-
-    a:hover {
-        color: #FFF;
-        box-shadow: 0 10px 19px rgba(0, 0, 0, 0.2);
-        transition: box-shadow 0.3s ease;
-
-        background-color: #F24B4B;
-
-    }
-
-    .sub {
-        width: 23.602rem;
-        height: 1.59113rem;
-        margin: 7rem 2rem 2rem 4.81rem;
-        color: var(--Red-Pink, #FF5B79);
-        font-family: Poppins;
-        font-size: 1.06075rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        letter-spacing: 0.03181rem;
-        text-transform: uppercase;
-    }
-
-    .titulo {
-
-        margin: 1rem 1rem 0.1rem 4.41rem;
-
-        color: #A2D4F2;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        font-family: Poppins;
-        font-size: 1.6rem;
-        font-style: normal;
-        font-weight: 900;
-        line-height: 109%;
-        /* 3.93119rem */
-    }
-
-
-
-
-    .imagemp {
-        width: 27.75rem;
-        height: 22.4375rem;
-        flex-shrink: 0;
-
-
-        margin: 0.1rem 26.13rem 15rem 15.12rem;
-
-
-    }
-
-
-
-    .texto {
-
-        height: 9.25rem;
-        flex-shrink: 0;
-
-        color: #A2D4F2;
-        font-family: Poppins;
-        font-size: 1.3rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 180%;
-        /* 1.5275rem */
-
-        margin: 2.38rem 5.38rem 20rem 6.38rem;
-    }
-
-   
-    }
+  
 
     .mobile-navbar {
 
@@ -151,7 +22,7 @@
     }
 
 
-
+}
 
 
 

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-import '../styles/Objetivo.scss'
+
 import { List } from "phosphor-react"
 
 import logotipo from '../imagens/logotipo.png'
@@ -12,7 +12,7 @@ function handleAbrirFecharMenu() {
   if (abrirMenu === true) {
       setAbrirMenu(false)
       return
-  }
+  }     
 
   setAbrirMenu(true)
 }
@@ -21,7 +21,7 @@ function Objetivo() {
   return (
     <>
 
-    <header>
+    <header>                                
 
         <div className="logo">
         
