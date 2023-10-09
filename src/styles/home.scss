@@ -21,7 +21,6 @@
         margin-left: 1rem;
 
 
-
     }
 
     .navbar {
@@ -41,7 +40,7 @@
         gap: 2.49281rem;
         box-sizing: border-box;
 
-        
+
     }
 
     a {
@@ -51,7 +50,7 @@
         height: 1.2rem;
         flex-direction: column;
         justify-content: center;
-      
+
 
 
         color: var(--vermelho, #F24B4B);
@@ -114,7 +113,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        
+
 
 
     }
@@ -123,7 +122,10 @@
 
     .texto {
 
-  
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        text-align: center;
 
         color: #A2D4F2;
         font-family: Poppins;
@@ -132,28 +134,23 @@
         font-weight: 400;
         line-height: 180%;
         /* 1.5275rem */
-
-        margin: 2.38rem 5.38rem 5rem 6.38rem;
-    }
-
-    .fundo-botao {
-        position: relative;
-        text-align: center;
-        margin-bottom: 5rem;
+        margin-top: 2rem;
 
 
     }
+
+.saiba-mais{
+    margin-top: 3rem;
+}
 
     .botao {
-
-        width: 10.76338rem;
-        height: 1.26631rem;
+        justify-content: center;
         position: absolute;
         top: 50%;
         /* Move o botão para o centro vertical */
         left: 50%;
         /* Move o botão para o centro horizontal */
-        transform: translate(-50%, -70%);
+        transform: translate(-50%, -60%);
 
         color: #FFF;
         text-align: center;
@@ -174,10 +171,29 @@
         }
 
         a:hover {
-            border: none;
-            box-shadow: 0 10px 19px rgba(0, 0, 0, 0.2);
-            transition: box-shadow 0.3s ease;
+            border: none ;
+            color: none;
+            box-shadow: none;
+            transition: none;
+            background-color:none;
+            cursor: pointer;
+            font-size: 1.1rem;
         }
+    }
+
+   
+
+    .fundo-botao {
+        position: relative;
+        text-align: center;
+        margin-bottom: 5rem;
+        background: none;
+        
+        img:hover{
+            cursor: pointer;
+    }
+
+
     }
 
     .mobile-navbar {
@@ -270,7 +286,7 @@
 
 
         &img {
-            max-width: 100%; 
+            max-width: 100%;
             max-height: 100%;
         }
     }
@@ -345,11 +361,8 @@
     }
 
     .texto {
-        width: 100%;
-        height: 9.125rem;
-        flex-shrink: 0;
-        padding: 1rem;
-        margin: 1.5rem 3.06rem 7.13rem 0.2rem;
+
+    
 
         color: #A2D4F2;
         text-align: center;
@@ -362,17 +375,13 @@
     }
 
     .fundo-botao {
-        margin-top: 1rem;
+
         margin-bottom: 5rem;
         position: relative;
         text-align: center;
     }
 
     .botao {
-
-        width: 10.76338rem;
-        height: 1.26631rem;
-        flex-shrink: 0;
         position: absolute;
         top: 50%;
         /* Move o botão para o centro vertical */
@@ -401,8 +410,8 @@
 
         a:hover {
             border: none;
-            box-shadow: 0 10px 19px rgba(0, 0, 0, 0.2);
-            transition: box-shadow 0.3s ease;
+            box-shadow:none;
+            transition: none;
         }
 
     }

@@ -8,16 +8,6 @@ import fundo from '../imagens/botao-fundo.png'
 
 
 
-function handleAbrirFecharMenu() {
-    const [abrirMenu, setAbrirMenu] = useState(false)
-
-    if (abrirMenu === true) {
-        setAbrirMenu(false)
-        return
-    }
-
-    setAbrirMenu(true)
-}
 
 
 
@@ -28,12 +18,10 @@ function Home() {
             <header>
 
                 <div className="logo">
-                
                         <img src={logotipo} alt="logo do site" />
-                   
-                    <div class="mobile-navbar">
-                        <button class="menu-m" onclick="handleAbrirFecharMenu()"><List size={32} /></button>
-                        <nav class="mobile-menu" id="mobileMenu">
+                    <div className="mobile-navbar">
+                        <button className="menu-m"><List size={32} /></button>
+                        <nav className="mobile-menu" id="mobileMenu">
                             <ul>
                                 <li><Link to={"/objetivo"}>Objetivo</Link></li>
                                 <li><Link to={"/Publico"}>Publico</Link></li>
@@ -53,7 +41,7 @@ function Home() {
                             <Link to={"/objetivo"}>Objetivo</Link>
                         </div>
                         <div className="navfundo">
-                        <Link to={"/Publico"}>Publico</Link>
+                            <Link to={"/Publico"}>Publico</Link>
                         </div>
                         <div className="navfundo">
                             <Link to={"/equipamentos"}>Equipamentos</Link>
