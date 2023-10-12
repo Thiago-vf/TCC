@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import { useState } from "react"
 import '../styles/home.scss'
 import { List, X } from "phosphor-react"
 
@@ -12,28 +13,64 @@ import fundo from '../imagens/botao-fundo.png'
 
 
 function Home() {
+
+    const [abrirMenu, setAbrirMenu] = useState(false)
+
+    function handleAbrirFecharMenu() {
+        if (abrirMenu === true) {
+            setAbrirMenu(false)
+            return
+        }
+
+        setAbrirMenu(true)
+    }
+
     return (
         <>
 
             <header>
 
                 <div className="logo">
-                        <img src={logotipo} alt="logo do site" />
-                    <div className="mobile-navbar">
-                        <button className="menu-m"><List size={32} /></button>
-                        <nav className="mobile-menu" id="mobileMenu">
-                            <ul>
-                                <li><Link to={"/objetivo"}>Objetivo</Link></li>
-                                <li><Link to={"/Publico"}>Publico</Link></li>
-                                <li><Link to={"/equipamentos"}>Equipamentos</Link></li>
-                                <li><Link to={"/funcionamento"}>Funcionamento</Link></li>
-                                <li><Link to={"/creditos"}>Créditos</Link></li>
-                            </ul>
+                    <img src={logotipo} alt="logo do site" />
+                </div>
+
+
+                <div className='mobile'>
+                    <div className='menu'>
+                        <button onClick={handleAbrirFecharMenu}>
+                            {
+                                abrirMenu === true ? (
+                                    <X size={32} />
+                                ) : (
+                                    <List size={32} />
+                                )
+                            }
+                        </button>
+
+                    </div>
+                    <div className={`options ${abrirMenu === true && `open`}`}>
+                        <nav className="">
+                        <div className="navfundo">
+                            <Link to={"/objetivo"}>Objetivo</Link>
+                        </div>
+                        <div className="navfundo">
+                            <Link to={"/Publico"}>Publico</Link>
+                        </div>
+                        <div className="navfundo">
+                            <Link to={"/equipamentos"}>Equipamentos</Link>
+                        </div>
+                        <div className="navfundo">
+                            <Link to={"/funcionamento"}>Funcionamento</Link>
+                        </div>
+                        <div className="navfundo">
+                            <Link to={"/creditos"}>Créditos</Link>
+                        </div>
                         </nav>
                     </div>
-
-
                 </div>
+
+
+
 
                 <div className="navbar">
                     <nav>
