@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { useState } from "react"
-import '../styles/home.scss'
+import '../styles/Home.scss'
 import { List, X } from "phosphor-react"
 
 import logotipo from '../imagens/logotipo.png'
@@ -29,50 +29,63 @@ function Home() {
         <>
 
             <header>
+                <div className="nv">
 
-                <div className="logo">
-                    <img src={logotipo} alt="logo do site" />
-                </div>
+                    <div className='mobile'>
+                        <div className='menu'>
+                            <button onClick={handleAbrirFecharMenu}>
+                                {
+                                    abrirMenu === true ? (
+                                        <X size={32} color="#ff5b79"/>
+                                    ) : (
+                                        <List size={32} color="#ff5b79"/>
+                                    )
+                                }
+                            </button>
 
-
-                <div className='mobile'>
-                    <div className='menu'>
-                        <button onClick={handleAbrirFecharMenu}>
-                            {
-                                abrirMenu === true ? (
-                                    <X size={32} />
-                                ) : (
-                                    <List size={32} />
-                                )
-                            }
-                        </button>
-
+                        </div>
+                        <div className={`options ${abrirMenu === true && `open`}`}>
+                        <h1 className="topo">-- INicio --</h1>
+                        <hr />
+                            <nav className="">
+                                <div className="navfundo">
+                                    <Link to={"/objetivo"}>Objetivo</Link>
+                                
+                                </div>
+                                <div className="hr"><hr /></div>
+                                <div className="navfundo">
+                                    <Link to={"/Publico"}>Publico</Link>
+                                </div>
+                                <div className="hr"><hr /></div>
+                                <div className="navfundo">
+                                    <Link to={"/equipamentos"}>Equipamentos</Link>
+                                </div>
+                                <div className="hr"><hr /></div>
+                                <div className="navfundo">
+                                    <Link to={"/funcionamento"}>Funcionamento</Link>
+                                </div>
+                                <div className="hr"><hr /></div>
+                                <div className="navfundo">
+                                    <Link to={"/creditos"}>Créditos</Link>
+                                </div>
+                                <div className="hr"><hr /></div>
+                            </nav>
+                        </div>
                     </div>
-                    <div className={`options ${abrirMenu === true && `open`}`}>
-                        <nav className="">
-                        <div className="navfundo">
-                            <Link to={"/objetivo"}>Objetivo</Link>
-                        </div>
-                        <div className="navfundo">
-                            <Link to={"/Publico"}>Publico</Link>
-                        </div>
-                        <div className="navfundo">
-                            <Link to={"/equipamentos"}>Equipamentos</Link>
-                        </div>
-                        <div className="navfundo">
-                            <Link to={"/funcionamento"}>Funcionamento</Link>
-                        </div>
-                        <div className="navfundo">
-                            <Link to={"/creditos"}>Créditos</Link>
-                        </div>
-                        </nav>
+                    <div className="logo">
+                        <img src={logotipo} alt="logo do site" />
                     </div>
+
+
+
                 </div>
 
 
 
 
                 <div className="navbar">
+                    
+                
                     <nav>
                         <div className="navfundo">
                             <Link to={"/objetivo"}>Objetivo</Link>
@@ -98,11 +111,11 @@ function Home() {
 
                 <section className="titulos">
                     <div className="sub">
-                        <h1>Projeto TCC</h1>
+                        <h1>D.M.A</h1>
                     </div>
 
                     <div className="titulo">
-                        <h2>Sistema de iluminação e detecção de mosquitos</h2>
+                        <h2>Sistema de Detecção de Mosquitos com Arduino</h2>
                     </div>
                 </section >
                 <section className="imagemp">
