@@ -4,7 +4,7 @@ import '../styles/Home.scss'
 import { List, X } from "phosphor-react"
 
 import logotipo from '../imagens/logotipo.png'
-import imagem from '../imagens/imagem-projeto.png'
+import imagem from '../imagens/projeto.png'
 import fundo from '../imagens/botao-fundo.png'
 
 

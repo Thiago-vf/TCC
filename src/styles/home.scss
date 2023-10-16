@@ -227,6 +227,7 @@
         
     }
     
+    
     .mobile .menu {
         display: flex;
         justify-content: left;
@@ -386,7 +387,7 @@
     }
 
     .imagemp {
-        margin: 1rem 1rem;
+        margin: 2rem 1rem;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -410,7 +411,8 @@
         font-style: normal;
         font-weight: 100;
         line-height: 150%;
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
+        margin-top: 1rem;
         
         width: 90%;
     }

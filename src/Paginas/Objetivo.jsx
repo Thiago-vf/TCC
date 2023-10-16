@@ -4,15 +4,15 @@ import '../styles/Objetivo.scss'
 import { List, X } from "phosphor-react"
 
 import logotipo from '../imagens/logotipo.png'
-import imagem from '../imagens/imagem-projeto.png'
-import fundo from '../imagens/botao-fundo.png'
+import imagem from '../imagens/objetivo.png'
 
 
 
 
 
 
-function Home() {
+
+function Objetivo() {
 
     const [abrirMenu, setAbrirMenu] = useState(false)
 
@@ -88,7 +88,7 @@ function Home() {
                 
                     <nav>
                         <div className="navfundo">
-                            <Link to={"/objetivo"}>Objetivo</Link>
+                            <Link to={"/"}>Inicio</Link>
                         </div>
                         <div className="navfundo">
                             <Link to={"/Publico"}>Publico</Link>
@@ -111,11 +111,11 @@ function Home() {
 
                 <section className="titulos">
                     <div className="sub">
-                        <h1>Projeto TCC</h1>
+                        <h1>D.M.A</h1>
                     </div>
 
                     <div className="titulo">
-                        <h2>Sistema de iluminação e detecção de mosquitos</h2>
+                        <h2>Nosso Objetivo</h2>
                     </div>
                 </section >
                 <section className="imagemp">
@@ -123,20 +123,15 @@ function Home() {
                 </section>
 
                 <section className="texto">
-                    <p>Neste projeto, vamos explorar uma aplicação do Arduino para criar um sistema que combina um sensor de luminosidade com a detecção de mosquitos...</p>
+                    <p>Nosso objetivo com este projeto é utilizar a plataforma Arduino para desenvolver um sistema inteligente que combine a detecção de luminosidade com a detecção de mosquitos, a fim de criar um ambiente mais confortável e seguro. Buscamos proporcionar uma solução automatizada e eficiente para a iluminação noturna e o controle de mosquitos, visando melhorar a qualidade de vida das pessoas. É importante ressaltar que, ao lidar com a ejeção de veneno ou substâncias tóxicas, a segurança é fundamental. Seguiremos as instruções de uso adequado do dispositivo e tomaremos todas as precauções necessárias para evitar danos às pessoas, animais de estimação e ao meio ambiente. Nosso objetivo é desenvolver um projeto responsável e eficiente, priorizando sempre a segurança e o bem-estar de todos os envolvidos.
+</p>
                 </section>
 
-                <section className="saiba-mais">
-                    <div className="fundo-botao">
-                        <img src={fundo} alt="imagem de fundo do botão saiba mais" />
-                        <button className="botao">
-                            <Link to={"/objetivo"}>Saiba mais</Link></button>
-                    </div>
-                </section>
+                
             </main>
 
 
         </>
     )
 }
-export default Home
+export default Objetivo
