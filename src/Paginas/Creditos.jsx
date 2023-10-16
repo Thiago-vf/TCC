@@ -5,6 +5,8 @@ import { List, X } from "phosphor-react"
 
 import logotipo from '../imagens/logotipo.png'
 import imagem from '../imagens/creditos.png'
+import hm from '../imagens/hm.png'
+import wm from '../imagens/wm.png'
 
 
 
@@ -122,6 +124,52 @@ function Creditos() {
 
         <section className="texto">
           <p>Este projeto foi feito com base em diferentes ideias e conceitos sobre automação residencial, eletrônica e programação. Embora não existam projetos exatamente idênticos a este, é importante mencionar que existem projetos semelhantes que abordam a automação da iluminação e controle de insetos utilizando Arduino e outros componentes eletrônicos.
+          </p>
+        </section>
+        <hr color="#ff5b79" />
+
+        <section className="participantes">
+
+          <h2 >Criadores</h2>
+
+        </section>
+
+        <section className="imagemp">
+          <img src={wm} alt="rosto feminino" />
+        </section>
+
+
+
+        <section className="texto">
+          <p><font color="#FF5B79">Ester Pinheiro <br /></font>
+            Estudante
+          </p>
+        </section>
+        <hr color="#ff5b79" />
+
+        <section className="imagemp">
+        <img src={hm} alt="rosto masculino" />
+      </section>
+
+
+
+      <section className="texto">
+        <p><font color="#FF5B79">Miguel Eduardo <br /></font>
+          Estudante
+        </p>
+      </section>
+      <hr color="#ff5b79" />
+
+
+        <section className="imagemp">
+          <img src={hm} alt="rosto masculino" />
+        </section>
+
+
+
+        <section className="texto">
+          <p><font color="#FF5B79">Thiago Vitorino <br /></font>
+            Estudante
           </p>
         </section>
 

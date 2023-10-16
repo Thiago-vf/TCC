@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import { useState } from "react"
 import '../styles/Objetivo.scss'
-import { List, X } from "phosphor-react"
+import { List, X, Buildings,Warning } from "phosphor-react"
 
 import logotipo from '../imagens/logotipo.png'
 import imagem from '../imagens/objetivo.png'
@@ -36,21 +36,21 @@ function Objetivo() {
                             <button onClick={handleAbrirFecharMenu}>
                                 {
                                     abrirMenu === true ? (
-                                        <X size={32} color="#ff5b79"/>
+                                        <X size={32} color="#ff5b79" />
                                     ) : (
-                                        <List size={32} color="#ff5b79"/>
+                                        <List size={32} color="#ff5b79" />
                                     )
                                 }
                             </button>
 
                         </div>
                         <div className={`options ${abrirMenu === true && `open`}`}>
-                        <h1 className="topo">-- objetivo --</h1>
-                        <hr />
+                            <h1 className="topo">-- objetivo --</h1>
+                            <hr />
                             <nav className="">
                                 <div className="navfundo">
                                     <Link to={"/"}>Inicio</Link>
-                                
+
                                 </div>
                                 <div className="hr"><hr /></div>
                                 <div className="navfundo">
@@ -84,8 +84,8 @@ function Objetivo() {
 
 
                 <div className="navbar">
-                    
-                
+
+
                     <nav>
                         <div className="navfundo">
                             <Link to={"/"}>Inicio</Link>
@@ -123,11 +123,23 @@ function Objetivo() {
                 </section>
 
                 <section className="texto">
-                    <p>Nosso objetivo com este projeto é utilizar a plataforma Arduino para desenvolver um sistema inteligente que combine a detecção de luminosidade com a detecção de mosquitos, a fim de criar um ambiente mais confortável e seguro. Buscamos proporcionar uma solução automatizada e eficiente para a iluminação noturna e o controle de mosquitos, visando melhorar a qualidade de vida das pessoas. É importante ressaltar que, ao lidar com a ejeção de veneno ou substâncias tóxicas, a segurança é fundamental. Seguiremos as instruções de uso adequado do dispositivo e tomaremos todas as precauções necessárias para evitar danos às pessoas, animais de estimação e ao meio ambiente. Nosso objetivo é desenvolver um projeto responsável e eficiente, priorizando sempre a segurança e o bem-estar de todos os envolvidos.
-</p>
+                    <p>Nosso objetivo com este projeto é utilizar a plataforma Arduino para desenvolver um sistema inteligente que combine a detecção de luminosidade com a detecção de mosquitos, a fim de criar um ambiente mais confortável e seguro. 
+                    </p>
+                </section>
+                <hr color="#ff5b79" />
+                <div className="icone"><Buildings size={92} color="#ff5b79" /></div>
+                <section className="texto">
+                    <p> Buscamos proporcionar uma solução automatizada e eficiente para a iluminação noturna e o controle de mosquitos, visando melhorar a qualidade de vida das pessoas.</p>
+                </section>
+                <hr color="#ff5b79" />
+                <div className="icone"><Warning size={92} color="#ff5b79" /></div>
+                
+                <section className="texto">
+                    <p> Seguiremos as instruções de uso adequado do dispositivo e tomaremos todas as precauções necessárias para evitar danos às pessoas, animais de estimação e ao meio ambiente.</p>
                 </section>
 
-                
+
+
             </main>
 
 

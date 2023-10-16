@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import { useState } from "react"
 import '../styles/Publico.scss'
-import { List, X } from "phosphor-react"
+import { List, X, Smiley } from "phosphor-react"
 
 import logotipo from '../imagens/logotipo.png'
 import imagem from '../imagens/publico.png'
@@ -123,9 +123,18 @@ function Publico() {
                 </section>
 
                 <section className="texto">
-                    <p>O nosso público-alvo para este projeto é composto por indivíduos e famílias preocupados com o controle de mosquitos e a iluminação noturna em suas residências. O projeto visa atender aqueles que desejam uma solução automatizada e eficiente para a detecção de mosquitos e a iluminação adequada durante a noite, proporcionando maior conforto e segurança em seus lares.
+                    <p>O nosso público-alvo para este projeto é composto por indivíduos e famílias preocupados com o controle de mosquitos e a iluminação noturna em suas residências.
 </p>
                 </section>
+                <hr color="#ff5b79" />
+
+                <div className="icone"><Smiley size={120} color="#ff5b79" /></div>
+                
+                <section className="texto">
+                    <p>  O projeto visa atender aqueles que desejam uma solução automatizada e eficiente para a detecção de mosquitos e a iluminação adequada durante a noite, proporcionando maior conforto e segurança em seus lares.</p>
+                </section>
+
+                
 
                 
             </main>
