@@ -7,6 +7,7 @@ import logotipo from '../imagens/logotipo.png'
 import imagem from '../imagens/creditos.png'
 import hm from '../imagens/hm.png'
 import wm from '../imagens/wm.png'
+import qrcode from '../imagens/qrcode.png'
 
 
 
@@ -123,7 +124,7 @@ function Creditos() {
         </section>
 
         <section className="texto">
-          <p>Este projeto foi feito com base em diferentes ideias e conceitos sobre automação residencial, eletrônica e programação. Embora não existam projetos exatamente idênticos a este, é importante mencionar que existem projetos semelhantes que abordam a automação da iluminação e controle de insetos utilizando Arduino e outros componentes eletrônicos.
+          <p>Este projeto foi feito com base em diferentes ideias e conceitos sobre automação residencial, eletrônica e programação. Embora não existam projetos exatamente idênticos a este, é importante mencionar que existem projetos semelhantes que serviram de inspiração do nosso projeto.
           </p>
         </section>
         <hr color="#ff5b79" />
@@ -173,6 +174,16 @@ function Creditos() {
           </p>
         </section>
 
+        <hr color="#ff5b79" />
+        <section className="texto">
+          <p><font color="#FF5B79">Qr code<br /></font>
+           Acesse nosso site!
+          </p>
+        </section>
+
+        <section className="qrcode">
+          <img src={qrcode} alt="codigo qr" />
+        </section>
 
       </main>
 

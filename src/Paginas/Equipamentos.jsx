@@ -8,7 +8,7 @@ import imagem from '../imagens/equipamentos.png'
 import protoboard from '../imagens/protoboard.png'
 import pir from '../imagens/pir.png'
 import ldr from '../imagens/ldr.png'
-import led from '../imagens/led.png'
+
 import spray from '../imagens/spray.png'
 
 
@@ -149,7 +149,7 @@ function Equipamentos() {
 
         <section className="texto">
         <p><font color="#FF5B79">3- Sensor PIR: <br /></font>
-        O sensor PIR detecta movimento através da detecção de variações de calor no ambiente. Ele é comumente usado em sistemas de segurança e automação residencial para detectar a presença de pessoas ou animais.
+        O sensor PIR detecta movimento através da detecção de variações de movimento no ambiente. Ele é comumente usado em sistemas de segurança e automação residencial para detectar a presença de pessoas ou animais.
           </p>
         </section>
 
