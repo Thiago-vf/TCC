@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import { useState } from "react"
 import '../styles/Equipamentos.scss'
-import { List, X } from "phosphor-react"
+import { List, X, Lightbulb } from "phosphor-react"
 
 import logotipo from '../imagens/logotipo.png'
 import imagem from '../imagens/equipamentos.png'
@@ -124,59 +124,90 @@ function Equipamentos() {
           </div>
         </section >
 
-        <section className="titulo-e">
-        <p color="#FF5B79" className="texto">1- Placa Arduino: <br />
-             A placa Arduino é o cérebro do projeto. É um microcontrolador programável que executa o código que você escreve.
-          </p>
-        </section>
+        <section >
+          <p className="titulo-e"> 1- Placa Arduino: </p>
 
-        <section className="imagemp">
+          <section className="imagemp">
           <img src={imagem} alt="imagen-do-projeto" />
         </section>
 
-        <section className="titulo-e">
-        <p color="#FF5B79" className="texto">2- Protoboard: <br />
-         Uma protoboard é uma placa que permite que você conecte componentes eletrônicos temporariamente sem a necessidade de soldagem.
+          <p  className="texto"> 
+            A placa Arduino é o cérebro do projeto. É um microcontrolador programável que executa o código que você escreve.
           </p>
         </section>
+
+        
+
+        <section>
+        <p className="titulo-e">2- Protoboard:</p>
 
         <section className="imagemp">
           <img src={protoboard} alt="imagen-do-equipamento" />
         </section>
 
-       
-        <section className="titulo-e">
-        <p color="#FF5B79" className="texto">3- Sensor PIR: <br />
-        O sensor PIR detecta movimento através da detecção de variações de movimento no ambiente. Ele é comumente usado em sistemas de segurança e automação residencial para detectar a presença de pessoas ou animais.
+          <p className="texto"> <br />
+            Uma protoboard é uma placa que permite que você conecte componentes eletrônicos temporariamente sem a necessidade de soldagem.
           </p>
         </section>
-        <section className="imagemp">
+
+      
+
+
+        <section>
+
+          <p  className="titulo-e">3- Sensor PIR:</p>
+
+          <section className="imagemp">
           <img src={pir} alt="imagen-do-equipamento" />
-        </section>
-
-       
-        <section className="titulo-e">
-        <p color="#FF5B79" className="texto">4- Sensor LDR: <br />
-        Um sensor LDR varia sua resistência com base na intensidade da luz incidente. Ele é usado para medir a luminosidade ambiente e é frequentemente utilizado em projetos de automação que envolvem controle de iluminação.
+        </section> 
+          <p className="texto"> 
+            O sensor PIR detecta movimento através da detecção de variações de movimento no ambiente. Ele é comumente usado em sistemas de segurança e automação residencial para detectar a presença de pessoas ou animais.
           </p>
         </section>
-        <section className="imagemp">
-          <img src={ldr} alt="imagen-do-equipamento" />
-        </section>
 
-        
+
+
         <section >
-        <p color="#FF5B79" className="titulo-e">6- Spray: </p>
-        <p className="texto">
-        Um sistema de ejeção de insetsida por spray é um dispositivo projetado para dispersar insetsida de maneira uniforme e controlada em uma área específica.
+
+          <p className="titulo-e" > 4- Sensor LDR: </p>
+
+          <section className="imagemp">
+            <img src={ldr} alt="imagen-do-equipamento" />
+          </section>
+
+          <p color="#FF5B79" className="texto">
+            Um sensor LDR varia sua resistência com base na intensidade da luz incidente. Ele é usado para medir a luminosidade ambiente e é frequentemente utilizado em projetos de automação que envolvem controle de iluminação.
+          </p>
+
+        </section>
+
+
+
+        <section >
+          <p color="#FF5B79" className="titulo-e">5- Spray: </p>
+
+          <section className="imagemp">
+            <img src={spray} alt="imagen-do-equipamento" />
+          </section>
+
+          <p className="texto">
+            Um sistema de ejeção de insetsida por spray é um dispositivo projetado para dispersar insetsida de maneira uniforme e controlada em uma área específica.
           </p>
         </section>
 
-        <section className="imagemp">
-          <img src={spray} alt="imagen-do-equipamento" />
+
+
+        <section >
+          <p className="titulo-e" > 6- Lâmpada: </p>
+          <section className="icone">
+            <Lightbulb size={150} color="#ff5b79" />
+          </section>
+
+          <p className="texto">
+            A função principal da lâmpada nesse projeto é atrair os mosquitos.
+          </p>
         </section>
 
-       
 
 
       </main>

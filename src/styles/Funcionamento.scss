@@ -15,13 +15,7 @@
 
 
 
-    .logo {
-        width: 0.8125rem;
-        height: 0.8125rem;
-        margin-left: 1rem;
 
-
-    }
 
     .navbar {
         display: flex;
@@ -330,22 +324,7 @@
     
 
 
-    .logo {
-        display: inline-block;
-        justify-content: center;
-        align-items: center;
-        height: 20vh;
-        margin: 0 auto;
-        margin-top: 1rem;
   
-
-
-
-        &img {
-            max-width: 100%;
-            max-height: 100%;
-        }
-    }
 
     .navbar {
         display: none;
@@ -408,19 +387,7 @@
 
         }
     }
-    p{
-        color: #A2D4F2;
-        text-align: center;
-        font-family: Poppins;
-        font-size: 1.3rem;
-        font-style: normal;
-        font-weight: 100;
-        line-height: 150%;
-        margin-bottom: 3rem;
-        margin-top: 1rem;
-        
-        width: 90%;
-    }
+   
     .texto{
         display: flex;
         justify-content: center;

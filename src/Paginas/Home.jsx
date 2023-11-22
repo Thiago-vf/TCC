@@ -118,7 +118,7 @@ function Home() {
                         <h2>Sistema de Detecção de Mosquitos com Arduino</h2>
                     </div>
                 </section >
-                <section className="imagemp">
+                <section className="imagemt">
                     <img src={imagem} alt="imagen-do-projeto" />
                 </section>
 

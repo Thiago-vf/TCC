@@ -177,7 +177,7 @@ function Creditos() {
         <hr color="#ff5b79" />
         <section className="texto">
           <p><font color="#FF5B79">Qr code<br /></font>
-           Acesse nosso site!
+           Acesse nosso Qr code!
           </p>
         </section>
 
