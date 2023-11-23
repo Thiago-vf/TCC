@@ -4,7 +4,7 @@ import '../styles/home.scss'
 import { List, X } from "phosphor-react"
 
 import logotipo from '../imagens/logotipo.png'
-import imagem from '../imagens/projeto.png'
+import imagem from '../imagens/projeto.jpeg'
 import fundo from '../imagens/botao-fundo.png'
 
 
@@ -36,21 +36,21 @@ function Home() {
                             <button onClick={handleAbrirFecharMenu}>
                                 {
                                     abrirMenu === true ? (
-                                        <X size={32} color="#ff5b79"/>
+                                        <X size={32} color="#ff5b79" />
                                     ) : (
-                                        <List size={32} color="#ff5b79"/>
+                                        <List size={32} color="#ff5b79" />
                                     )
                                 }
                             </button>
 
                         </div>
-                        <div className={`options ${abrirMenu === true && `open`}`}>
-                        <h1 className="topo">-- INicio --</h1>
-                        <hr />
+                         <div className={`options ${abrirMenu === true && `open`}`}>
+                            <h1 className="topo">-- INicio --</h1>
+                            <hr />
                             <nav className="">
                                 <div className="navfundo">
                                     <Link to={"/objetivo"}>Objetivo</Link>
-                                
+
                                 </div>
                                 <div className="hr"><hr /></div>
                                 <div className="navfundo">
@@ -84,8 +84,8 @@ function Home() {
 
 
                 <div className="navbar">
-                    
-                
+
+
                     <nav>
                         <div className="navfundo">
                             <Link to={"/objetivo"}>Objetivo</Link>

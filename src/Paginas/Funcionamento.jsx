@@ -4,7 +4,7 @@ import '../styles/Funcionamento.scss'
 import { List, X } from "phosphor-react"
 
 import logotipo from '../imagens/logotipo.png'
-import imagem from '../imagens/funcionamento.png'
+import video from '../imagens/video.mp4'
 
 
 
@@ -118,9 +118,13 @@ function Funcionamento() {
             <h2>Funcionamento</h2>
           </div>
         </section >
-        <section className="imagemp">
-          <img src={imagem} alt="imagen-do-projeto" />
-        </section>
+         <div className="video">
+          
+          <video width="340" height="360" controls >
+            <source src={video} type="video/mp4" />
+
+          </video>
+        </div>
 
         <section className="texto">
           <p>O projeto consiste em utilizar um Arduino, juntamente com um sensor de luminosidade e um sensor de presença de insetos, para criar um sistema automatizado que combina iluminação noturna e controle de mosquitos.
